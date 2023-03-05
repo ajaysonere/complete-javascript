@@ -27,3 +27,14 @@ console.log(4 && 0);
 console.log(0 && 4);
 console.log(4 || 0);
 console.log(0 || 4);
+
+// bitwise operator
+
+console.log(5&2);
+console.log(5|2);
+console.log(5 << 2);
+console.log(5 >> 2);
+console.log(~5);
+
+// string operator
+console.log("Ajay"+"Sonere");
