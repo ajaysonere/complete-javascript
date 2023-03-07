@@ -1,0 +1,1 @@
+// to-boolean and quality operater 
