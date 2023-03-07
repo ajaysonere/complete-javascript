@@ -4,3 +4,10 @@ if(10 == "10"){
 }else{
     console.log("not equal");
 }
+
+
+if (10 === "10") {
+    console.log("equal ");
+} else {
+    console.log("not equal");
+}
