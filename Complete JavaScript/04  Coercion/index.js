@@ -12,3 +12,5 @@ console.log(11 - {"a":5 , valueOf(){return this.a}});
 console.log(33 + {a:20});
 console.log("33" - { a: 30 });
 console.log(33 - { a: 30 });
+
+console.log(33 - {"a":20,})
