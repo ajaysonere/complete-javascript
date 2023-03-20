@@ -1,4 +1,10 @@
 
+console.log({"a":10});
+
+console.log({"a":10}+"Hello");
+
+console.log({}+"Hello");
+
 console.log(!0);
 
 
