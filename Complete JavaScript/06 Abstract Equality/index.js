@@ -14,3 +14,18 @@ for(let i=0;i<"5"; i++){
     ans++;
 }
 console.log(ans);
+
+// Nan(Not A Number )
+
+let a = "10";
+let b = "abc";
+let c = "ajay";
+let d = 10-c;
+
+console.log(a ,b,c,d);
+console.log(isNaN(a));
+console.log(isNaN(b));
+console.log(isNaN(c));
+console.log(isNaN(d));
+
+console.log( "Last" , (NaN == NaN));
