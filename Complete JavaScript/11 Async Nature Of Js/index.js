@@ -13,5 +13,5 @@ setTimeout(function(){
     }
 },0);
 
-console.log("Stop Execution By async ")
+console.log("Stop Execution By async ");
 
