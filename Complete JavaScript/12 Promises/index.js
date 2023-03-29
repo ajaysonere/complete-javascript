@@ -12,3 +12,10 @@ function fun(inputString , fn){
         fn(arr[i]);
     }
 }
+
+fun("name : Ajay , subject:cse", function(ip){
+    let arr = ip.split(':');
+    for(let i=0; i<arr.length;i++){
+        console.log(`{ ${arr[0]} => ${arr[1]}}`);
+    }
+})
