@@ -1,0 +1,20 @@
+{
+  "name": "complete-js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaysonere/complete-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaysonere/complete-javascript/issues"
+  },
+  "homepage": "https://github.com/ajaysonere/complete-javascript#readme"
+}
