@@ -28,8 +28,7 @@ app.post('/blogs' , (req ,res) => {
 
 app.delete("/blogs/:id" , (req , res)=>{
     const num = parseInt(req.params.id);
-    blogList.filter(data => data.id !== num);
-    console.log(blogList);
+    blogList = blogList.filter(data => data.id !== num);
     res.send("blog deleted");
 })
 
