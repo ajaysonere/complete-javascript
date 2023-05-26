@@ -27,15 +27,10 @@ app.post('/blogs' , (req ,res) => {
 // 
 
 app.delete("/blogs/:id" , (req , res)=>{
-    const num = req.params.id;
-    console.log(num);
-    blogList.filter(function(data){
-        console.log(typeof data.id);
-        return data.id == num;
-    });
-    return res.status(200).json({
-       data : "deleted ",
-    });
+    const num = parseInt(req.params.id);
+    blogList.filter(data => data.id !== num);
+    console.log(blogList);
+    res.send("blog deleted");
 })
 
 
