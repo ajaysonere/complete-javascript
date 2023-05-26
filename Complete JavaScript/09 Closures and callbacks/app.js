@@ -18,7 +18,7 @@ blogList.push(
 
 console.log(blogList);
 let num = 2;
-blogList.filter((data) => {
+blogList = blogList.filter((data) => {
     console.log(da);
     data.id !== num;
 })
