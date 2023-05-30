@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ajaysonere/complete-javascript/issues"
   },
-  "homepage": "https://github.com/ajaysonere/complete-javascript#readme"
+  "homepage": "https://github.com/ajaysonere/complete-javascript#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
+  }
 }
