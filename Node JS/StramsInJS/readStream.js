@@ -11,3 +11,16 @@ readStreame.on("data" , (chunk)=>{
 readStreame.on("close", ()=>{
     console.log(content);
 })
+
+
+content = "I Love my family .......";
+
+const writeStream = fs.createWriteStream('read.txt');
+
+writeStream.write(content);
+
+writeStream.end();
+
+writeStream.on("finish",()=>{
+    console.log("Writing is Completed ");
+});
